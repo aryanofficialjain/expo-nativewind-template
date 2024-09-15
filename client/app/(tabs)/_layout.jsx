@@ -9,7 +9,7 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarStyle: {
-          paddingVertical:10, // Adjust vertical padding
+          paddingVertical:3, // Adjust vertical padding
           paddingHorizontal: 4, // Adjust horizontal padding
           height: 90,
           alignItems: 'center', // Center the tab items

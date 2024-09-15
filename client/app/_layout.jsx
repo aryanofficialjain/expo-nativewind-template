@@ -10,23 +10,23 @@ export default function HomeLayout() {
         <Stack>
           <Stack.Screen
             name="index"
-            options={{ headerShown: false }}
+            options={{ headerShown: true }}
           />
           <Stack.Screen
             name="login/index"
-            options={{ headerShown: false }}
+            options={{ headerShown: true }}
           />
           <Stack.Screen
             name="register/index"
-            options={{ headerShown: false }}
+            options={{ headerShown: true }}
           />
           <Stack.Screen
             name="forgotpassword/index"
-            options={{ headerShown: false }}
+            options={{ headerShown: true }}
           />
           <Stack.Screen
             name="(tabs)"
-            options={{ headerShown: false }}
+            options={{ headerShown: true }}
           />
         </Stack>
       </SafeAreaView>
